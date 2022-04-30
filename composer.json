@@ -1,0 +1,20 @@
+{
+    "name": "mehdikhalili/magento2-linkedin-profile-customer-attribute",
+    "description": "A Magento 2 module that creates a new customer attribute named 'linkedin_profile'",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": ">7.3.0",
+        "magento/framework": "~100.0.4"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "MehdiKhalili\\LinkedinProfileAttribute\\": ""
+        }
+    }
+}
